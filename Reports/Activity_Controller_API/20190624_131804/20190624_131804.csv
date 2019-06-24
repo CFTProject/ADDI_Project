@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Activity_Controller_API,,,2019-06-24 13:19:03,2019-06-24 13:19:22,18.812s,FAILED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Verify_Response_with_valid_Values,,,2019-06-24 13:19:03,2019-06-24 13:19:11,7.955s,PASSED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Verify_Response_with_valid_Values""))",,,2019-06-24 13:19:04,2019-06-24 13:19:10,6.095s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-24 13:19:10,2019-06-24 13:19:10,0.028s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-24 13:19:10,2019-06-24 13:19:10,0.151s,PASSED
+"verifyElementPropertyValue(response, ""[0].activityId"", activityId)",,,2019-06-24 13:19:10,2019-06-24 13:19:10,0.058s,PASSED
+"verifyElementPropertyValue(response, ""[0].activityType"", activityType)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.083s,PASSED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.049s,PASSED
+"verifyElementPropertyValue(response, ""[0].disposition"", disposition)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.042s,PASSED
+"verifyElementPropertyValue(response, ""[0].databaseName"", databaseName)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.048s,PASSED
+"verifyElementPropertyValue(response, ""[0].dataBaseAction"", dataBaseAction)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.053s,PASSED
+"verifyElementPropertyValue(response, ""[0].mapName"", mapName)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.049s,PASSED
+"verifyElementPropertyValue(response, ""[0].programID"", programID)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.050s,PASSED
+"verifyElementPropertyValue(response, ""[0].programName"", programName)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.069s,PASSED
+"verifyElementPropertyValue(response, ""[0].language"", language)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.047s,PASSED
+"verifyElementPropertyValue(response, ""[0].count"", count)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.042s,PASSED
+"verifyElementPropertyValue(response, ""[0].listADG"", listADG)",,,2019-06-24 13:19:11,2019-06-24 13:19:11,0.050s,PASSED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Verify_Response_with_Empty_Values,,,2019-06-24 13:19:11,2019-06-24 13:19:13,1.720s,FAILED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Verify_Response_with_Empty_Values""))",,,2019-06-24 13:19:12,2019-06-24 13:19:12,0.390s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-24 13:19:12,2019-06-24 13:19:12,0.000s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-24 13:19:12,2019-06-24 13:19:12,0.059s,FAILED
+"verifyElementPropertyValue(response, ""[0].activityId"", activityId)",,,2019-06-24 13:19:12,2019-06-24 13:19:12,0.059s,FAILED
+"verifyElementPropertyValue(response, ""[0].activityType"", activityType)",,,2019-06-24 13:19:12,2019-06-24 13:19:12,0.041s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-24 13:19:12,2019-06-24 13:19:13,0.040s,FAILED
+"verifyElementPropertyValue(response, ""[0].disposition"", disposition)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.036s,FAILED
+"verifyElementPropertyValue(response, ""[0].databaseName"", databaseName)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].dataBaseAction"", dataBaseAction)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.034s,FAILED
+"verifyElementPropertyValue(response, ""[0].mapName"", mapName)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.047s,FAILED
+"verifyElementPropertyValue(response, ""[0].programID"", programID)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.041s,FAILED
+"verifyElementPropertyValue(response, ""[0].programName"", programName)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].language"", language)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.041s,FAILED
+"verifyElementPropertyValue(response, ""[0].count"", count)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.043s,FAILED
+"verifyElementPropertyValue(response, ""[0].listADG"", listADG)",,,2019-06-24 13:19:13,2019-06-24 13:19:13,0.073s,FAILED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Verify_Response__with_Invalid_Values,,,2019-06-24 13:19:13,2019-06-24 13:19:14,1.578s,FAILED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Verify_Response__with_Invalid_Values""))",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.215s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.000s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.072s,FAILED
+"verifyElementPropertyValue(response, ""[0].activityId"", activityId)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.035s,FAILED
+"verifyElementPropertyValue(response, ""[0].activityType"", activityType)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.040s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.047s,FAILED
+"verifyElementPropertyValue(response, ""[0].disposition"", disposition)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.026s,FAILED
+"verifyElementPropertyValue(response, ""[0].databaseName"", databaseName)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].dataBaseAction"", dataBaseAction)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.031s,FAILED
+"verifyElementPropertyValue(response, ""[0].mapName"", mapName)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].programID"", programID)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.034s,FAILED
+"verifyElementPropertyValue(response, ""[0].programName"", programName)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.045s,FAILED
+"verifyElementPropertyValue(response, ""[0].language"", language)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.121s,FAILED
+"verifyElementPropertyValue(response, ""[0].count"", count)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.050s,FAILED
+"verifyElementPropertyValue(response, ""[0].listADG"", listADG)",,,2019-06-24 13:19:14,2019-06-24 13:19:14,0.039s,FAILED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Verify_Response_with_Invalid_parameters,,,2019-06-24 13:19:15,2019-06-24 13:19:15,0.716s,PASSED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-06-24 13:19:15,2019-06-24 13:19:15,0.300s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-06-24 13:19:15,2019-06-24 13:19:15,0.000s,PASSED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Post_Request,,,2019-06-24 13:19:15,2019-06-24 13:19:19,3.560s,PASSED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Post_Request""))",,,2019-06-24 13:19:16,2019-06-24 13:19:19,3.200s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-06-24 13:19:19,2019-06-24 13:19:19,0.004s,PASSED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Put_Request,,,2019-06-24 13:19:19,2019-06-24 13:19:20,0.903s,PASSED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Put_Request""))",,,2019-06-24 13:19:19,2019-06-24 13:19:20,0.503s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-24 13:19:20,2019-06-24 13:19:20,0.000s,PASSED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Delete_Request_with_Valid_Parameters,,,2019-06-24 13:19:20,2019-06-24 13:19:20,0.795s,PASSED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-06-24 13:19:20,2019-06-24 13:19:20,0.443s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-24 13:19:20,2019-06-24 13:19:20,0.000s,PASSED
+,,,,,,
+Test Cases/Activity_Controller_API/Activity_Controller_Delete_Request_with_Invalid_Parameters,,,2019-06-24 13:19:20,2019-06-24 13:19:21,0.947s,PASSED
+"response = sendRequest(findTestObject(""Activity_Controller_API/Activity_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-06-24 13:19:21,2019-06-24 13:19:21,0.357s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-06-24 13:19:21,2019-06-24 13:19:21,0.000s,PASSED
