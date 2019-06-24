@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transaction_Controller_Verify_Response_with_Empty_Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3af8b5ef-7dd3-4563-a205-903349fdfa3e</testCaseGuid>
+</TestCaseEntity>

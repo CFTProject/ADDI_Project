@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sim_Controller_API,,,2019-06-18 19:31:38,2019-06-18 19:31:51,13.177s,FAILED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_valid_Values,,,2019-06-18 19:31:39,2019-06-18 19:31:45,6.614s,PASSED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Verify_Response_with_valid_Values""))",,,2019-06-18 19:31:40,2019-06-18 19:31:45,4.651s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.030s,PASSED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.133s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.042s,PASSED
+"verifyElementPropertyValue(response, ""[0].function"", function)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.053s,PASSED
+"verifyElementPropertyValue(response, ""[0].destination"", destination)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.062s,PASSED
+"verifyElementPropertyValue(response, ""[0].version"", version)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.041s,PASSED
+"verifyElementPropertyValue(response, ""[0].funcAvailable"", funcAvailable)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.038s,PASSED
+"verifyElementPropertyValue(response, ""[0].interfaceAct"", interfaceAct)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.079s,PASSED
+"verifyElementPropertyValue(response, ""[0].compNo"", compNo)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.035s,PASSED
+"verifyElementPropertyValue(response, ""[0].parameterN1"", parameterN1)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.038s,PASSED
+"verifyElementPropertyValue(response, ""[0].parameterN2"", parameterN2)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.039s,PASSED
+"verifyElementPropertyValue(response, ""[0].c1"", c1)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.031s,PASSED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-18 19:31:45,2019-06-18 19:31:45,0.051s,PASSED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values,,,2019-06-18 19:31:45,2019-06-18 19:31:47,1.415s,FAILED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values""))",,,2019-06-18 19:31:46,2019-06-18 19:31:46,0.266s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-18 19:31:46,2019-06-18 19:31:46,0.000s,PASSED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-06-18 19:31:46,2019-06-18 19:31:46,0.093s,FAILED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-18 19:31:46,2019-06-18 19:31:46,0.090s,FAILED
+"verifyElementPropertyValue(response, ""[0].function"", function)",,,2019-06-18 19:31:46,2019-06-18 19:31:46,0.057s,FAILED
+"verifyElementPropertyValue(response, ""[0].destination"", destination)",,,2019-06-18 19:31:46,2019-06-18 19:31:46,0.047s,FAILED
+"verifyElementPropertyValue(response, ""[0].version"", version)",,,2019-06-18 19:31:46,2019-06-18 19:31:47,0.043s,FAILED
+"verifyElementPropertyValue(response, ""[0].funcAvailable"", funcAvailable)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.039s,FAILED
+"verifyElementPropertyValue(response, ""[0].interfaceAct"", interfaceAct)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].compNo"", compNo)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].parameterN1"", parameterN1)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.040s,FAILED
+"verifyElementPropertyValue(response, ""[0].parameterN2"", parameterN2)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.063s,FAILED
+"verifyElementPropertyValue(response, ""[0].c1"", c1)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.040s,FAILED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values,,,2019-06-18 19:31:47,2019-06-18 19:31:48,1.054s,FAILED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values""))",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.224s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-18 19:31:47,2019-06-18 19:31:47,0.003s,PASSED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-06-18 19:31:47,2019-06-18 19:31:48,0.061s,FAILED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.044s,FAILED
+"verifyElementPropertyValue(response, ""[0].function"", function)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.034s,FAILED
+"verifyElementPropertyValue(response, ""[0].destination"", destination)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].version"", version)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.031s,FAILED
+"verifyElementPropertyValue(response, ""[0].funcAvailable"", funcAvailable)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].interfaceAct"", interfaceAct)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.030s,FAILED
+"verifyElementPropertyValue(response, ""[0].compNo"", compNo)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].parameterN1"", parameterN1)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.039s,FAILED
+"verifyElementPropertyValue(response, ""[0].parameterN2"", parameterN2)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.029s,FAILED
+"verifyElementPropertyValue(response, ""[0].c1"", c1)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.013s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.061s,FAILED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Invalid_parameters,,,2019-06-18 19:31:48,2019-06-18 19:31:49,0.571s,PASSED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-06-18 19:31:48,2019-06-18 19:31:48,0.219s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-06-18 19:31:48,2019-06-18 19:31:49,0.002s,PASSED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Post_Request,,,2019-06-18 19:31:49,2019-06-18 19:31:49,0.609s,PASSED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Post_Request""))",,,2019-06-18 19:31:49,2019-06-18 19:31:49,0.201s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-06-18 19:31:49,2019-06-18 19:31:49,0.002s,PASSED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Put_Request,,,2019-06-18 19:31:49,2019-06-18 19:31:50,0.571s,PASSED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Put_Request""))",,,2019-06-18 19:31:50,2019-06-18 19:31:50,0.187s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-18 19:31:50,2019-06-18 19:31:50,0.001s,PASSED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Valid_Parameters,,,2019-06-18 19:31:50,2019-06-18 19:31:50,0.752s,PASSED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-06-18 19:31:50,2019-06-18 19:31:50,0.228s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-18 19:31:50,2019-06-18 19:31:50,0.002s,PASSED
+,,,,,,
+Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Invalid_Parameters,,,2019-06-18 19:31:50,2019-06-18 19:31:51,0.810s,PASSED
+"response = sendRequest(findTestObject(""Sim_Controller_API/Sim_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-06-18 19:31:51,2019-06-18 19:31:51,0.349s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-06-18 19:31:51,2019-06-18 19:31:51,0.000s,PASSED

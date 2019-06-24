@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Activity_Controller_Delete_Request_with_Valid_Parameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3bb1e23d-a1e2-4cf8-b334-92ee0f524d0a</testCaseGuid>
+</TestCaseEntity>

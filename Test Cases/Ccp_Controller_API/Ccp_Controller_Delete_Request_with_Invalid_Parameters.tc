@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ccp_Controller_Delete_Request_with_Invalid_Parameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb5bf932-9168-40fb-ab5b-02ddb0656fd5</testCaseGuid>
+</TestCaseEntity>

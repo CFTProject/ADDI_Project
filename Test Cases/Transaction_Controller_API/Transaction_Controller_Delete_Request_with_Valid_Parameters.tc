@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transaction_Controller_Delete_Request_with_Valid_Parameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98a55b8a-3277-4097-a57c-2d70b18251b6</testCaseGuid>
+</TestCaseEntity>

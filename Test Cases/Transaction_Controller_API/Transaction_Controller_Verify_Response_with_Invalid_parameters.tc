@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transaction_Controller_Verify_Response_with_Invalid_parameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5ce6a10-b507-4dc1-909f-6e1eb15ef112</testCaseGuid>
+</TestCaseEntity>

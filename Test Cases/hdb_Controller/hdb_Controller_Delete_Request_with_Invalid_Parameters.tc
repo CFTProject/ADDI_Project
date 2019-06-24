@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>hdb_Controller_Delete_Request_with_Invalid_Parameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3b236e1-8336-4adf-b689-b20586cb89ba</testCaseGuid>
+</TestCaseEntity>

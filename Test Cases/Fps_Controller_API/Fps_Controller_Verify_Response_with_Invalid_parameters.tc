@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fps_Controller_Verify_Response_with_Invalid_parameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f93d1cc1-c942-44e6-a102-998311896f82</testCaseGuid>
+</TestCaseEntity>
