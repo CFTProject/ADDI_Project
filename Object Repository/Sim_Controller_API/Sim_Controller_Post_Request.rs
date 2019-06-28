@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;c1\&quot;: \&quot;string\&quot;,\n  \&quot;compNo\&quot;: \&quot;1234\&quot;,\n  \&quot;description\&quot;: \&quot;string\&quot;,\n  \&quot;destination\&quot;: \&quot;string\&quot;,\n  \&quot;funcAvailable\&quot;: \&quot;string\&quot;,\n  \&quot;function\&quot;: \&quot;string\&quot;,\n  \&quot;interfaceAct\&quot;: \&quot;string\&quot;,\n  \&quot;owner\&quot;: \&quot;string\&quot;,\n  \&quot;parameterN1\&quot;: \&quot;string\&quot;,\n  \&quot;parameterN2\&quot;: \&quot;string\&quot;,\n  \&quot;type\&quot;: \&quot;string\&quot;,\n  \&quot;version\&quot;: \&quot;string\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;c1\&quot;: \&quot;string\&quot;,\n    \&quot;compNo\&quot;: \&quot;1234\&quot;,\n    \&quot;description\&quot;: \&quot;string\&quot;,\n    \&quot;destination\&quot;: \&quot;string\&quot;,\n    \&quot;funcAvailable\&quot;: \&quot;string\&quot;,\n    \&quot;function\&quot;: \&quot;string\&quot;,\n    \&quot;interfaceAct\&quot;: \&quot;string\&quot;,\n    \&quot;owner\&quot;: \&quot;string\&quot;,\n    \&quot;parameterN1\&quot;: \&quot;string\&quot;,\n    \&quot;parameterN2\&quot;: \&quot;string\&quot;,\n    \&quot;type\&quot;: \&quot;string\&quot;,\n    \&quot;version\&quot;: \&quot;string\&quot;\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

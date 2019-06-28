@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;application\&quot;: \&quot;string\&quot;,\n  \&quot;dblockActivity\&quot;: \&quot;string\&quot;,\n  \&quot;description\&quot;: \&quot;string\&quot;,\n  \&quot;displayActivity\&quot;: \&quot;string\&quot;,\n  \&quot;displayFirst\&quot;: \&quot;string\&quot;,\n  \&quot;efsaction\&quot;: \&quot;string\&quot;,\n  \&quot;efskey\&quot;: \&quot;string\&quot;,\n  \&quot;establishedNewLevel\&quot;: \&quot;string\&quot;,\n  \&quot;fpskeyApplication\&quot;: \&quot;string\&quot;,\n  \&quot;fpskeyFunction\&quot;: \&quot;string\&quot;,\n  \&quot;fpskeySequence\&quot;: \&quot;string\&quot;,\n  \&quot;function\&quot;: \&quot;string\&quot;,\n  \&quot;functionSecurityLevel\&quot;: \&quot;string\&quot;,\n  \&quot;initActivity\&quot;: \&quot;string\&quot;,\n  \&quot;initType\&quot;: \&quot;string\&quot;,\n  \&quot;linkactivity\&quot;: \&quot;string\&quot;,\n  \&quot;owner\&quot;: \&quot;string\&quot;,\n  \&quot;pqr\&quot;: \&quot;string\&quot;,\n  \&quot;screenId\&quot;: \&quot;ABC\&quot;,\n  \&quot;sequence\&quot;: \&quot;string\&quot;,\n  \&quot;statusCode\&quot;: \&quot;string\&quot;,\n  \&quot;type\&quot;: \&quot;string\&quot;,\n  \&quot;userEnrollment\&quot;: \&quot;string\&quot;,\n  \&quot;xyz\&quot;: \&quot;string\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;[\n  {\n    \&quot;application\&quot;: \&quot;string\&quot;,\n    \&quot;dblockActivity\&quot;: \&quot;string\&quot;,\n    \&quot;description\&quot;: \&quot;string\&quot;,\n    \&quot;displayActivity\&quot;: \&quot;string\&quot;,\n    \&quot;displayFirst\&quot;: \&quot;string\&quot;,\n    \&quot;efsaction\&quot;: \&quot;string\&quot;,\n    \&quot;efskey\&quot;: \&quot;string\&quot;,\n    \&quot;establishedNewLevel\&quot;: \&quot;string\&quot;,\n    \&quot;fpskeyApplication\&quot;: \&quot;string\&quot;,\n    \&quot;fpskeyFunction\&quot;: \&quot;string\&quot;,\n    \&quot;fpskeySequence\&quot;: \&quot;string\&quot;,\n    \&quot;function\&quot;: \&quot;string\&quot;,\n    \&quot;functionSecurityLevel\&quot;: \&quot;string\&quot;,\n    \&quot;initActivity\&quot;: \&quot;string\&quot;,\n    \&quot;initType\&quot;: \&quot;string\&quot;,\n    \&quot;linkactivity\&quot;: \&quot;string\&quot;,\n    \&quot;owner\&quot;: \&quot;string\&quot;,\n    \&quot;pqr\&quot;: \&quot;string\&quot;,\n    \&quot;screenId\&quot;: \&quot;ABC\&quot;,\n    \&quot;sequence\&quot;: \&quot;string\&quot;,\n    \&quot;statusCode\&quot;: \&quot;string\&quot;,\n    \&quot;type\&quot;: \&quot;string\&quot;,\n    \&quot;userEnrollment\&quot;: \&quot;string\&quot;,\n    \&quot;xyz\&quot;: \&quot;string\&quot;\n  }\n]&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -21,7 +21,7 @@
       <value>application/json</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>PUT</restRequestMethod>
+   <restRequestMethod>POST</restRequestMethod>
    <restUrl>http://localhost:9090/hogan-connector/funtion-processing-system/?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>

@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Defination_Group_Controller_API,,,2019-06-27 17:52:51,2019-06-27 17:52:58,7.395s,FAILED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response_with_valid_Values,,,2019-06-27 17:52:51,2019-06-27 17:52:55,3.666s,PASSED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response_with_valid_Values""))",,,2019-06-27 17:52:52,2019-06-27 17:52:55,2.941s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.021s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.072s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.022s,PASSED
+"verifyElementPropertyValue(response, ""[0].dgId"", dgId)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.024s,PASSED
+"verifyElementPropertyValue(response, ""[0].cobCopyBook"", cobCopyBook)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.025s,PASSED
+"verifyElementPropertyValue(response, ""[0].macro"", macro)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.022s,PASSED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.025s,PASSED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response_with_Empty_Values,,,2019-06-27 17:52:55,2019-06-27 17:52:56,0.662s,FAILED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response_with_Empty_Values""))",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.153s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-27 17:52:55,2019-06-27 17:52:55,0.003s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-06-27 17:52:55,2019-06-27 17:52:56,0.049s,FAILED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.035s,FAILED
+"verifyElementPropertyValue(response, ""[0].dgId"", dgId)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.024s,FAILED
+"verifyElementPropertyValue(response, ""[0].cobCopyBook"", cobCopyBook)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.018s,FAILED
+"verifyElementPropertyValue(response, ""[0].macro"", macro)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.017s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.036s,FAILED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response__with_Invalid_Values,,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.610s,FAILED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response__with_Invalid_Values""))",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.133s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.025s,FAILED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.026s,FAILED
+"verifyElementPropertyValue(response, ""[0].dgId"", dgId)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].cobCopyBook"", cobCopyBook)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.017s,FAILED
+"verifyElementPropertyValue(response, ""[0].macro"", macro)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-06-27 17:52:56,2019-06-27 17:52:56,0.028s,FAILED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response_with_Invalid_parameters,,,2019-06-27 17:52:56,2019-06-27 17:52:57,0.372s,PASSED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.150s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.002s,PASSED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Post_Request,,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.388s,PASSED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Post_Request""))",,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.143s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.003s,PASSED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Put_Request,,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.356s,PASSED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Put_Request""))",,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.138s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-27 17:52:57,2019-06-27 17:52:57,0.004s,PASSED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Delete_Request_with_Valid_Parameters,,,2019-06-27 17:52:57,2019-06-27 17:52:58,0.384s,PASSED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-06-27 17:52:58,2019-06-27 17:52:58,0.146s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-06-27 17:52:58,2019-06-27 17:52:58,0.003s,PASSED
+,,,,,,
+Test Cases/Defination_Group_Controller_API/Defination_Group_Controller_Delete_Request_with_Invalid_Parameters,,,2019-06-27 17:52:58,2019-06-27 17:52:58,0.373s,FAILED
+"response = sendRequest(findTestObject(""Defination_Group_Controller_API/Defination_Group_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-06-27 17:52:58,2019-06-27 17:52:58,0.149s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-06-27 17:52:58,2019-06-27 17:52:58,0.006s,FAILED
