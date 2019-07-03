@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sim_Controller_API" time="11" tests="6" failures="2" errors="0">
+   <testsuite name="Sim_Controller_API" tests="6" failures="2" errors="0" time="11" timestamp="2019-07-03 12:11:02" hostname="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN" id="Test Suites/Sim_Controller_API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\khaja.h\\Katalon Studio\\ADDI_Project\\Reports\\Sim_Controller_API\\20190703_120819"/>
+         <property name="logFiles" value="C:\\Users\\khaja.h\\Katalon Studio\\ADDI_Project\\Reports\\Sim_Controller_API\\20190703_120819\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="khaja.h - LP-5CD7465GP0.HCLT.CORP.HCL.IN"/>
+         <property name="hostAddress" value="172.23.0.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_valid_Values" classname="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_valid_Values" status="PASSED">
+         <system-out><![CDATA[2019-07-03 12:11:02 - [TEST_CASE][PASSED] - Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_valid_Values: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_valid_Values
+
+2019-07-03 12:11:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Verify_Response_with_valid_Values")): Send request successfully
+
+2019-07-03 12:11:06 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\0.har
+
+2019-07-03 12:11:06 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-03 12:11:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-07-03 12:11:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].type", type): Verify element property value successfully
+
+2019-07-03 12:11:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].owner", owner): Verify element property value successfully
+
+2019-07-03 12:11:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].function", function): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].destination", destination): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].version", version): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].funcAvailable", funcAvailable): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].interfaceAct", interfaceAct): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].compNo", compNo): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].parameterN1", parameterN1): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].parameterN2", parameterN2): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].c1", c1): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].description", description): Verify element property value successfully
+
+2019-07-03 12:11:07 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values" classname="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response_with_Empty_Values.run(Sim_Controller_Verify_Response_with_Empty_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)
+"/>
+         <system-out><![CDATA[2019-07-03 12:11:07 - [TEST_CASE][FAILED] - Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response_with_Empty_Values.run(Sim_Controller_Verify_Response_with_Empty_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)
+
+
+2019-07-03 12:11:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values")): Send request successfully
+
+2019-07-03 12:11:08 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\1.har
+
+2019-07-03 12:11:08 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-03 12:11:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].type", type): Expected element property value '' is not equal with actual property value 'null'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value 'null'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].owner", owner): Expected element property value '' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].function", function): Expected element property value '' is not equal with actual property value 'ACAC-DL'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value 'ACAC-DL'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].destination", destination): Expected element property value '' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].version", version): Expected element property value '' is not equal with actual property value '00000'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '00000'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].funcAvailable", funcAvailable): Expected element property value '' is not equal with actual property value '8611'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '8611'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].interfaceAct", interfaceAct): Expected element property value '' is not equal with actual property value 'Y'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value 'Y'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].compNo", compNo): Expected element property value '' is not equal with actual property value '0000025062'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '0000025062'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].parameterN1", parameterN1): Expected element property value '' is not equal with actual property value '0000000000'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '0000000000'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].parameterN2", parameterN2): Expected element property value '' is not equal with actual property value '00000'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '00000'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].c1", c1): Expected element property value '' is not equal with actual property value '00000'
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value '' is not equal with actual property value '00000'
+
+2019-07-03 12:11:08 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].description", description): verifyElementPropertyValue(response, "[0].description", description) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response_with_Empty_Values.run(Sim_Controller_Verify_Response_with_Empty_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)
+
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - Expected element property value 'sdfc' is not equal with actual property value ''
+
+2019-07-03 12:11:08 - [MESSAGE][FAILED] - verifyElementPropertyValue(response, "[0].description", description) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response_with_Empty_Values.run(Sim_Controller_Verify_Response_with_Empty_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-07-03 12:11:07 - [TEST_CASE][FAILED] - Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response_with_Empty_Values.run(Sim_Controller_Verify_Response_with_Empty_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values" classname="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'JNHB' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response__with_Invalid_Values.run(Sim_Controller_Verify_Response__with_Invalid_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)
+"/>
+         <system-out><![CDATA[2019-07-03 12:11:08 - [TEST_CASE][FAILED] - Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'JNHB' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response__with_Invalid_Values.run(Sim_Controller_Verify_Response__with_Invalid_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)
+
+
+2019-07-03 12:11:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values")): Send request successfully
+
+2019-07-03 12:11:09 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\2.har
+
+2019-07-03 12:11:09 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-03 12:11:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-07-03 12:11:09 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].type", type): Expected element property value 'JNHB' is not equal with actual property value 'null'
+
+2019-07-03 12:11:09 - [MESSAGE][FAILED] - Expected element property value 'JNHB' is not equal with actual property value 'null'
+
+2019-07-03 12:11:09 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].owner", owner): Expected element property value 'NHBG' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value 'NHBG' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].function", function): Expected element property value 'JNHU' is not equal with actual property value 'ACAC-DL'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value 'JNHU' is not equal with actual property value 'ACAC-DL'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].destination", destination): Expected element property value 'UHY' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value 'UHY' is not equal with actual property value 'CIS'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].version", version): Expected element property value '0987' is not equal with actual property value '00000'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value '0987' is not equal with actual property value '00000'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].funcAvailable", funcAvailable): Expected element property value '9876' is not equal with actual property value '8611'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value '9876' is not equal with actual property value '8611'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].interfaceAct", interfaceAct): Expected element property value 'JK' is not equal with actual property value 'Y'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value 'JK' is not equal with actual property value 'Y'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].compNo", compNo): Expected element property value '876567' is not equal with actual property value '0000025062'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value '876567' is not equal with actual property value '0000025062'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].parameterN1", parameterN1): Expected element property value '0983456' is not equal with actual property value '0000000000'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value '0983456' is not equal with actual property value '0000000000'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].parameterN2", parameterN2): Expected element property value '98765' is not equal with actual property value '00000'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value '98765' is not equal with actual property value '00000'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].c1", c1): Expected element property value '45678' is not equal with actual property value '00000'
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value '45678' is not equal with actual property value '00000'
+
+2019-07-03 12:11:10 - [TEST_STEP][FAILED] - verifyElementPropertyValue(response, "[0].description", description): verifyElementPropertyValue(response, "[0].description", description) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'JNHB' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response__with_Invalid_Values.run(Sim_Controller_Verify_Response__with_Invalid_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)
+
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - Expected element property value 'JHNBH' is not equal with actual property value ''
+
+2019-07-03 12:11:10 - [MESSAGE][FAILED] - verifyElementPropertyValue(response, "[0].description", description) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'JNHB' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response__with_Invalid_Values.run(Sim_Controller_Verify_Response__with_Invalid_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-07-03 12:11:08 - [TEST_CASE][FAILED] - Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response__with_Invalid_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'JNHB' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response__with_Invalid_Values.run(Sim_Controller_Verify_Response__with_Invalid_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Invalid_parameters" classname="Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Invalid_parameters" status="PASSED">
+         <system-out><![CDATA[2019-07-03 12:11:10 - [TEST_CASE][PASSED] - Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Invalid_parameters: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Invalid_parameters
+
+2019-07-03 12:11:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Verify_Response_with_Invalid_parameters")): Send request successfully
+
+2019-07-03 12:11:11 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\3.har
+
+2019-07-03 12:11:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2019-07-03 12:11:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Post_Request" classname="Test Cases/Sim_Controller_API/Sim_Controller_Post_Request" status="PASSED">
+         <system-out><![CDATA[2019-07-03 12:11:11 - [TEST_CASE][PASSED] - Test Cases/Sim_Controller_API/Sim_Controller_Post_Request: Test Cases/Sim_Controller_API/Sim_Controller_Post_Request
+
+2019-07-03 12:11:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Post_Request")): Send request successfully
+
+2019-07-03 12:11:11 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\4.har
+
+2019-07-03 12:11:11 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-07-03 12:11:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Put_Request" classname="Test Cases/Sim_Controller_API/Sim_Controller_Put_Request" status="PASSED">
+         <system-out><![CDATA[2019-07-03 12:11:11 - [TEST_CASE][PASSED] - Test Cases/Sim_Controller_API/Sim_Controller_Put_Request: Test Cases/Sim_Controller_API/Sim_Controller_Put_Request
+
+2019-07-03 12:11:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Put_Request")): Send request successfully
+
+2019-07-03 12:11:12 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\5.har
+
+2019-07-03 12:11:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-03 12:11:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Valid_Parameters" classname="Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Valid_Parameters" status="PASSED">
+         <system-out><![CDATA[2019-07-03 12:11:12 - [TEST_CASE][PASSED] - Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Valid_Parameters: Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Valid_Parameters
+
+2019-07-03 12:11:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Delete_Request_with_Valid_Parameters")): Send request successfully
+
+2019-07-03 12:11:13 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\6.har
+
+2019-07-03 12:11:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-07-03 12:11:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Invalid_Parameters" classname="Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Invalid_Parameters" status="PASSED">
+         <system-out><![CDATA[2019-07-03 12:11:13 - [TEST_CASE][PASSED] - Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Invalid_Parameters: Test Cases/Sim_Controller_API/Sim_Controller_Delete_Request_with_Invalid_Parameters
+
+2019-07-03 12:11:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Sim_Controller_API/Sim_Controller_Delete_Request_with_Invalid_Parameters")): Send request successfully
+
+2019-07-03 12:11:13 - [MESSAGE][INFO] - HAR: C:\Users\khaja.h\Katalon Studio\ADDI_Project\Reports\Sim_Controller_API\20190703_120819\requests\main\7.har
+
+2019-07-03 12:11:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-07-03 12:11:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2019-07-03 12:11:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-03 12:11:02 - [TEST_SUITE][FAILED] - Sim_Controller_API: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response_with_Empty_Values.run(Sim_Controller_Verify_Response_with_Empty_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-07-03 12:11:02 - [TEST_SUITE][FAILED] - Sim_Controller_API: Test Cases/Sim_Controller_API/Sim_Controller_Verify_Response_with_Empty_Values FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value '' is not equal with actual property value 'null'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:123)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$1.call(Unknown Source)
+	at Sim_Controller_Verify_Response_with_Empty_Values.run(Sim_Controller_Verify_Response_with_Empty_Values:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1562135899742.run(TempTestSuite1562135899742.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Program_Controller_API,,,2019-07-03 12:10:26,2019-07-03 12:10:40,13.499s,FAILED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Verify_Response_with_valid_Values,,,2019-07-03 12:10:27,2019-07-03 12:10:33,6.221s,PASSED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Verify_Response_with_valid_Values""))",,,2019-07-03 12:10:27,2019-07-03 12:10:32,4.880s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.044s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.type"", pgm_type)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.117s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.owner"", pgm_owner)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.033s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.pgmId"", pgm_pgmId)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.033s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.linkName"", pgm_linkName)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.036s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.description"", pgm_description)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.079s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.language"", pgm_language)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.045s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.status"", pgm_status)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.031s,PASSED
+"verifyElementPropertyValue(response, ""[0].pdg.type"", pdg_type)",,,2019-07-03 12:10:32,2019-07-03 12:10:32,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[0].pdg.number"", pdg_number)",,,2019-07-03 12:10:33,2019-07-03 12:10:33,0.057s,PASSED
+"verifyElementPropertyValue(response, ""[0].pdg.dgNumberList"", pdg_dgNumberList)",,,2019-07-03 12:10:33,2019-07-03 12:10:33,0.043s,PASSED
+"verifyElementPropertyValue(response, ""[0].pac.type"", pac_type)",,,2019-07-03 12:10:33,2019-07-03 12:10:33,0.044s,PASSED
+"verifyElementPropertyValue(response, ""[0].pac.number"", pac_number)",,,2019-07-03 12:10:33,2019-07-03 12:10:33,0.040s,PASSED
+"verifyElementPropertyValue(response, ""[0].pac.actNumbersList"", pac_act_NumbersList)",,,2019-07-03 12:10:33,2019-07-03 12:10:33,0.028s,PASSED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Verify_Response_with_Empty_Values,,,2019-07-03 12:10:33,2019-07-03 12:10:34,1.412s,FAILED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Verify_Response_with_Empty_Values""))",,,2019-07-03 12:10:33,2019-07-03 12:10:34,0.385s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.003s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.type"", pgm_type)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.052s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.owner"", pgm_owner)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.043s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.pgmId"", pgm_pgmId)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.linkName"", pgm_linkName)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.description"", pgm_description)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.040s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.language"", pgm_language)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.status"", pgm_status)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.036s,FAILED
+"verifyElementPropertyValue(response, ""[0].pdg.type"", pdg_type)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.057s,FAILED
+"verifyElementPropertyValue(response, ""[0].pdg.number"", pdg_number)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.031s,FAILED
+"verifyElementPropertyValue(response, ""[0].pdg.dgNumberList"", pdg_dgNumberList)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.034s,FAILED
+"verifyElementPropertyValue(response, ""[0].pac.type"", pac_type)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.054s,FAILED
+"verifyElementPropertyValue(response, ""[0].pac.number"", pac_number)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].pac.actNumbersList"", pac_act_NumbersList)",,,2019-07-03 12:10:34,2019-07-03 12:10:34,0.034s,FAILED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Verify_Response__with_Invalid_Values,,,2019-07-03 12:10:34,2019-07-03 12:10:36,1.424s,FAILED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Verify_Response__with_Invalid_Values""))",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.296s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.000s,PASSED
+"verifyElementPropertyValue(response, ""[0].pgm.type"", pgm_type)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.049s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.owner"", pgm_owner)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.051s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.pgmId"", pgm_pgmId)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.045s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.linkName"", pgm_linkName)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.046s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.description"", pgm_description)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.045s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.language"", pgm_language)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.036s,FAILED
+"verifyElementPropertyValue(response, ""[0].pgm.status"", pgm_status)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.030s,FAILED
+"verifyElementPropertyValue(response, ""[0].pdg.type"", pdg_type)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].pdg.number"", pdg_number)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.035s,FAILED
+"verifyElementPropertyValue(response, ""[0].pdg.dgNumberList"", pdg_dgNumberList)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.051s,FAILED
+"verifyElementPropertyValue(response, ""[0].pac.type"", pac_type)",,,2019-07-03 12:10:35,2019-07-03 12:10:35,0.090s,FAILED
+"verifyElementPropertyValue(response, ""[0].pac.number"", pac_number)",,,2019-07-03 12:10:35,2019-07-03 12:10:36,0.053s,FAILED
+"verifyElementPropertyValue(response, ""[0].pac.actNumbersList"", pac_act_NumbersList)",,,2019-07-03 12:10:36,2019-07-03 12:10:36,0.065s,FAILED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Verify_Response_with_Invalid_parameters,,,2019-07-03 12:10:36,2019-07-03 12:10:37,0.967s,PASSED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-07-03 12:10:36,2019-07-03 12:10:37,0.357s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-03 12:10:37,2019-07-03 12:10:37,0.004s,PASSED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Post_Request,,,2019-07-03 12:10:37,2019-07-03 12:10:37,0.721s,PASSED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Post_Request""))",,,2019-07-03 12:10:37,2019-07-03 12:10:37,0.310s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-07-03 12:10:37,2019-07-03 12:10:37,0.000s,PASSED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Put_Request,,,2019-07-03 12:10:37,2019-07-03 12:10:38,0.822s,PASSED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Put_Request""))",,,2019-07-03 12:10:38,2019-07-03 12:10:38,0.252s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:38,2019-07-03 12:10:38,0.000s,PASSED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Delete_Request_with_Valid_Parameters,,,2019-07-03 12:10:38,2019-07-03 12:10:39,0.602s,PASSED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-07-03 12:10:38,2019-07-03 12:10:39,0.266s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:39,2019-07-03 12:10:39,0.000s,PASSED
+,,,,,,
+Test Cases/Program_Controller_API/Program_Controller_Delete_Request_with_Invalid_Parameters,,,2019-07-03 12:10:39,2019-07-03 12:10:39,0.658s,PASSED
+"response = sendRequest(findTestObject(""Program_Controller_API/Program_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-07-03 12:10:39,2019-07-03 12:10:39,0.275s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-03 12:10:39,2019-07-03 12:10:39,0.000s,PASSED

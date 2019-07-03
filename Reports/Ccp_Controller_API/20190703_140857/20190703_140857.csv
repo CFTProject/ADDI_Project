@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Ccp_Controller_API,,,2019-07-03 14:09:34,2019-07-03 14:09:46,11.992s,FAILED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Verify_Response_with_valid_Values,,,2019-07-03 14:09:35,2019-07-03 14:09:39,4.805s,PASSED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Verify_Response_with_valid_Values""))",,,2019-07-03 14:09:35,2019-07-03 14:09:39,3.702s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 14:09:39,2019-07-03 14:09:39,0.052s,PASSED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-07-03 14:09:39,2019-07-03 14:09:39,0.121s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-07-03 14:09:39,2019-07-03 14:09:39,0.028s,PASSED
+"verifyElementPropertyValue(response, ""[0].application"", application)",,,2019-07-03 14:09:39,2019-07-03 14:09:39,0.032s,PASSED
+"verifyElementPropertyValue(response, ""[0].ccpid"", ccpid)",,,2019-07-03 14:09:39,2019-07-03 14:09:39,0.050s,PASSED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-03 14:09:39,2019-07-03 14:09:39,0.042s,PASSED
+"verifyElementPropertyValue(response, ""[0].messageCategory"", messageCategory)",,,2019-07-03 14:09:39,2019-07-03 14:09:39,0.029s,PASSED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Verify_Response_with_Empty_Values,,,2019-07-03 14:09:39,2019-07-03 14:09:41,1.118s,FAILED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Verify_Response_with_Empty_Values""))",,,2019-07-03 14:09:40,2019-07-03 14:09:40,0.268s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 14:09:40,2019-07-03 14:09:40,0.007s,PASSED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-07-03 14:09:40,2019-07-03 14:09:40,0.108s,FAILED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-07-03 14:09:40,2019-07-03 14:09:40,0.053s,FAILED
+"verifyElementPropertyValue(response, ""[0].application"", application)",,,2019-07-03 14:09:40,2019-07-03 14:09:40,0.043s,FAILED
+"verifyElementPropertyValue(response, ""[0].ccpid"", ccpid)",,,2019-07-03 14:09:40,2019-07-03 14:09:40,0.044s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-03 14:09:40,2019-07-03 14:09:40,0.106s,FAILED
+"verifyElementPropertyValue(response, ""[0].messageCategory"", messageCategory)",,,2019-07-03 14:09:40,2019-07-03 14:09:41,0.047s,FAILED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Verify_Response__with_Invalid_Values,,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.768s,FAILED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Verify_Response__with_Invalid_Values""))",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.181s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.002s,PASSED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.029s,FAILED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.036s,FAILED
+"verifyElementPropertyValue(response, ""[0].application"", application)",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].ccpid"", ccpid)",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.022s,FAILED
+"verifyElementPropertyValue(response, ""[0].messageCategory"", messageCategory)",,,2019-07-03 14:09:41,2019-07-03 14:09:41,0.023s,FAILED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Verify_Response_with_Invalid_parameters,,,2019-07-03 14:09:41,2019-07-03 14:09:42,0.422s,PASSED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-07-03 14:09:42,2019-07-03 14:09:42,0.197s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-03 14:09:42,2019-07-03 14:09:42,0.003s,PASSED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Post_Request,,,2019-07-03 14:09:42,2019-07-03 14:09:42,0.591s,PASSED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Post_Request""))",,,2019-07-03 14:09:42,2019-07-03 14:09:42,0.256s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-07-03 14:09:42,2019-07-03 14:09:42,0.002s,PASSED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Put_Request,,,2019-07-03 14:09:42,2019-07-03 14:09:45,2.268s,PASSED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Put_Request""))",,,2019-07-03 14:09:43,2019-07-03 14:09:45,2.055s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 14:09:45,2019-07-03 14:09:45,0.003s,PASSED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Delete_Request_with_Valid_Parameters,,,2019-07-03 14:09:45,2019-07-03 14:09:45,0.739s,PASSED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-07-03 14:09:45,2019-07-03 14:09:45,0.208s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 14:09:45,2019-07-03 14:09:45,0.003s,PASSED
+,,,,,,
+Test Cases/Ccp_Controller_API/Ccp_Controller_Delete_Request_with_Invalid_Parameters,,,2019-07-03 14:09:45,2019-07-03 14:09:46,0.523s,PASSED
+"response = sendRequest(findTestObject(""Ccp_Controller_API/Ccp_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-07-03 14:09:46,2019-07-03 14:09:46,0.138s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-03 14:09:46,2019-07-03 14:09:46,0.003s,PASSED

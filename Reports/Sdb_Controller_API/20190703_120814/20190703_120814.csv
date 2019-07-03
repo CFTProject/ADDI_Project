@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sdb_Controller_API,,,2019-07-03 12:10:44,2019-07-03 12:10:56,12.478s,FAILED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Verify_Response_with_valid_Values,,,2019-07-03 12:10:44,2019-07-03 12:10:50,5.470s,PASSED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Verify_Response_with_valid_Values""))",,,2019-07-03 12:10:45,2019-07-03 12:10:49,3.787s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:49,2019-07-03 12:10:49,0.040s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-07-03 12:10:49,2019-07-03 12:10:49,0.106s,PASSED
+"verifyElementPropertyValue(response, ""[0].own"", own)",,,2019-07-03 12:10:49,2019-07-03 12:10:49,0.032s,PASSED
+"verifyElementPropertyValue(response, ""[0].sdbId"", sdbId)",,,2019-07-03 12:10:49,2019-07-03 12:10:49,0.047s,PASSED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-03 12:10:49,2019-07-03 12:10:49,0.068s,PASSED
+"verifyElementPropertyValue(response, ""[0].filetyp"", filetyp)",,,2019-07-03 12:10:49,2019-07-03 12:10:50,0.057s,PASSED
+"verifyElementPropertyValue(response, ""[0].deviceClass"", deviceClass)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.088s,PASSED
+"verifyElementPropertyValue(response, ""[0].accessMethod"", accessMethod)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.100s,PASSED
+"verifyElementPropertyValue(response, ""[0].recFmt"", recFmt)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.050s,PASSED
+"verifyElementPropertyValue(response, ""[0].logicalRecLength"", logicalRecLength)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.048s,PASSED
+"verifyElementPropertyValue(response, ""[0].ddName"", ddName)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.036s,PASSED
+"verifyElementPropertyValue(response, ""[0].recFm"", recFm)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.032s,PASSED
+"verifyElementPropertyValue(response, ""[0].blockSize"", blockSize)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.030s,PASSED
+"verifyElementPropertyValue(response, ""[0].status"", status)",,,2019-07-03 12:10:50,2019-07-03 12:10:50,0.028s,PASSED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Verify_Response_with_Empty_Values,,,2019-07-03 12:10:50,2019-07-03 12:10:51,1.258s,FAILED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Verify_Response_with_Empty_Values""))",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.228s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.002s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.029s,FAILED
+"verifyElementPropertyValue(response, ""[0].own"", own)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].sdbId"", sdbId)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.025s,FAILED
+"verifyElementPropertyValue(response, ""[0].filetyp"", filetyp)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.029s,FAILED
+"verifyElementPropertyValue(response, ""[0].deviceClass"", deviceClass)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.030s,FAILED
+"verifyElementPropertyValue(response, ""[0].accessMethod"", accessMethod)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].recFmt"", recFmt)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].logicalRecLength"", logicalRecLength)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.036s,FAILED
+"verifyElementPropertyValue(response, ""[0].ddName"", ddName)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.045s,FAILED
+"verifyElementPropertyValue(response, ""[0].recFm"", recFm)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.036s,FAILED
+"verifyElementPropertyValue(response, ""[0].blockSize"", blockSize)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.039s,FAILED
+"verifyElementPropertyValue(response, ""[0].status"", status)",,,2019-07-03 12:10:51,2019-07-03 12:10:51,0.049s,FAILED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Verify_Response__with_Invalid_Values,,,2019-07-03 12:10:51,2019-07-03 12:10:53,1.583s,FAILED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Verify_Response__with_Invalid_Values""))",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.355s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.003s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.034s,FAILED
+"verifyElementPropertyValue(response, ""[0].own"", own)",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.081s,FAILED
+"verifyElementPropertyValue(response, ""[0].sdbId"", sdbId)",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.033s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].filetyp"", filetyp)",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.045s,FAILED
+"verifyElementPropertyValue(response, ""[0].deviceClass"", deviceClass)",,,2019-07-03 12:10:52,2019-07-03 12:10:52,0.046s,FAILED
+"verifyElementPropertyValue(response, ""[0].accessMethod"", accessMethod)",,,2019-07-03 12:10:52,2019-07-03 12:10:53,0.070s,FAILED
+"verifyElementPropertyValue(response, ""[0].recFmt"", recFmt)",,,2019-07-03 12:10:53,2019-07-03 12:10:53,0.045s,FAILED
+"verifyElementPropertyValue(response, ""[0].logicalRecLength"", logicalRecLength)",,,2019-07-03 12:10:53,2019-07-03 12:10:53,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].ddName"", ddName)",,,2019-07-03 12:10:53,2019-07-03 12:10:53,0.040s,FAILED
+"verifyElementPropertyValue(response, ""[0].recFm"", recFm)",,,2019-07-03 12:10:53,2019-07-03 12:10:53,0.047s,FAILED
+"verifyElementPropertyValue(response, ""[0].blockSize"", blockSize)",,,2019-07-03 12:10:53,2019-07-03 12:10:53,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].status"", status)",,,2019-07-03 12:10:53,2019-07-03 12:10:53,0.046s,FAILED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Verify_Response_with_Invalid_parameters,,,2019-07-03 12:10:53,2019-07-03 12:10:54,0.836s,PASSED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-07-03 12:10:53,2019-07-03 12:10:54,0.286s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-03 12:10:54,2019-07-03 12:10:54,0.000s,PASSED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Post_Request,,,2019-07-03 12:10:54,2019-07-03 12:10:54,0.614s,PASSED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Post_Request""))",,,2019-07-03 12:10:54,2019-07-03 12:10:54,0.264s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-07-03 12:10:54,2019-07-03 12:10:54,0.012s,PASSED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Put_Request,,,2019-07-03 12:10:54,2019-07-03 12:10:55,0.807s,PASSED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Put_Request""))",,,2019-07-03 12:10:55,2019-07-03 12:10:55,0.301s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:55,2019-07-03 12:10:55,0.000s,PASSED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Delete_Request_with_Valid_Parameters,,,2019-07-03 12:10:55,2019-07-03 12:10:56,0.645s,PASSED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-07-03 12:10:55,2019-07-03 12:10:56,0.274s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-03 12:10:56,2019-07-03 12:10:56,0.000s,PASSED
+,,,,,,
+Test Cases/Sdb_Controller_API/Sdb_Controller_Delete_Request_with_Invalid_Parameters,,,2019-07-03 12:10:56,2019-07-03 12:10:56,0.626s,PASSED
+"response = sendRequest(findTestObject(""Sdb_Controller_API/Sdb_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-07-03 12:10:56,2019-07-03 12:10:56,0.255s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-03 12:10:56,2019-07-03 12:10:56,0.000s,PASSED
