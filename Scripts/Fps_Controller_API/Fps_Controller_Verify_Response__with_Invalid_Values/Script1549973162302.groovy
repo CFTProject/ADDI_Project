@@ -34,7 +34,7 @@ WS.verifyElementPropertyValue(response, '[0].description', description)
 
 WS.verifyElementPropertyValue(response, '[0].statusCode', statusCode)
 
-WS.verifyElementPropertyValue(response, '[0].xyz', xyz)
+WS.verifyElementPropertyValue(response, '[0].dgAction', dgAction)
 
 WS.verifyElementPropertyValue(response, '[0].initActivity', initActivity)
 
@@ -58,7 +58,7 @@ WS.verifyElementPropertyValue(response, '[0].fpskeyFunction', fpskeyFunction)
 
 WS.verifyElementPropertyValue(response, '[0].fpskeySequence', fpskeySequence)
 
-WS.verifyElementPropertyValue(response, '[0].pqr', pqr)
+WS.verifyElementPropertyValue(response, '[0].highUseIndicator', highUseIndicator)
 
 WS.verifyElementPropertyValue(response, '[0].efskey', efskey)
 

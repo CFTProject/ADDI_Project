@@ -75,7 +75,7 @@
       <variableLink>
          <testDataLinkId>7eb116a8-d454-4cd6-8815-fc28a1451f0f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>xyz</value>
+         <value>dgAction</value>
          <variableId>57a936ca-878b-4ab1-b942-b56b25f80609</variableId>
       </variableLink>
       <variableLink>
@@ -147,7 +147,7 @@
       <variableLink>
          <testDataLinkId>7eb116a8-d454-4cd6-8815-fc28a1451f0f</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>pqr</value>
+         <value>highUseIndicator</value>
          <variableId>2029910f-0916-4599-8d95-baf722a9a940</variableId>
       </variableLink>
       <variableLink>
@@ -234,7 +234,7 @@
       <variableLink>
          <testDataLinkId>2ad32f06-36c9-4fea-bbfb-82509a572439</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>xyz</value>
+         <value>dgAction</value>
          <variableId>c4f5822d-3739-426e-842b-5029dd8ef8ae</variableId>
       </variableLink>
       <variableLink>
@@ -306,7 +306,7 @@
       <variableLink>
          <testDataLinkId>2ad32f06-36c9-4fea-bbfb-82509a572439</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>pqr</value>
+         <value>highUseIndicator</value>
          <variableId>6bb63774-8a59-4435-b01b-546d70659709</variableId>
       </variableLink>
       <variableLink>
@@ -393,7 +393,7 @@
       <variableLink>
          <testDataLinkId>4183c232-8231-42ac-9592-e94456edff9d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>xyz</value>
+         <value>dgAction</value>
          <variableId>32f7ecd2-dd6c-488b-8b81-3f200dca6ec4</variableId>
       </variableLink>
       <variableLink>
@@ -465,7 +465,7 @@
       <variableLink>
          <testDataLinkId>4183c232-8231-42ac-9592-e94456edff9d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>pqr</value>
+         <value>highUseIndicator</value>
          <variableId>16632b2b-41e1-46b0-8578-2bbe6b1191ed</variableId>
       </variableLink>
       <variableLink>

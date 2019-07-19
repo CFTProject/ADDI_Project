@@ -1,0 +1,109 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hdb_Controller,,,2019-07-18 12:47:47,2019-07-18 12:47:59,12.160s,FAILED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Verify_Response_with_valid_Values,,,2019-07-18 12:47:47,2019-07-18 12:47:54,6.993s,PASSED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Verify_Response_with_valid_Values""))",,,2019-07-18 12:47:48,2019-07-18 12:47:54,5.551s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.034s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.type"", hdb_type)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.072s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.owner"", hdb_owner)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.026s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.databaseId"", hdb_databaseId)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.022s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.coGroup"", hdb_coGroup)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.017s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.databaseType"", hdb_databaseType)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.024s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.description"", hdb_description)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.026s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.readOnlyDbid"", hdb_readOnlyDbid)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.020s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.relationalActy"", hdb_relationalActy)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.021s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.dataPropagation"", hdb_dataPropagation)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.017s,PASSED
+"verifyElementPropertyValue(response, ""[0].vsm.type"", vsm_type)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.015s,PASSED
+"verifyElementPropertyValue(response, ""[0].vsm.version"", vsm_version)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.021s,PASSED
+"verifyElementPropertyValue(response, ""[0].vsm.ddname"", vsm_ddname)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.016s,PASSED
+"verifyElementPropertyValue(response, ""[0].vsm.datasetFormat"", vsm_datasetFormat)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.017s,PASSED
+"verifyElementPropertyValue(response, ""[0].vsm.maxRecSize"", vsm_maxRecSize)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.015s,PASSED
+"verifyElementPropertyValue(response, ""[0].vsm.password"", vsm_password)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.017s,PASSED
+"verifyElementPropertyValue(response, ""[0].ims.type"", ims_type)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.021s,PASSED
+"verifyElementPropertyValue(response, ""[0].ims.dlitype"", ims_dlitype)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.018s,PASSED
+"verifyElementPropertyValue(response, ""[0].ims.posParameter"", ims_posParameter)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.018s,PASSED
+"verifyElementPropertyValue(response, ""[0].ims.maxKeylen"", ims_maxKeylen)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.024s,PASSED
+"verifyElementPropertyValue(response, ""[0].ims.dbdName"", ims_dbdName)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.019s,PASSED
+"verifyElementPropertyValue(response, ""[0].mod.type"", mod_type)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.018s,PASSED
+"verifyElementPropertyValue(response, ""[0].mod.modelDbId"", mod_modelDbId)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.034s,PASSED
+"verifyElementPropertyValue(response, ""[0].mod.modelCoGrp"", mod_modelCoGrp)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.017s,PASSED
+"verifyElementPropertyValue(response, ""[0].mod.modelReason"", mod_modelReason)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.017s,PASSED
+"verifyElementPropertyValue(response, ""[0].dgList"", dgList)",,,2019-07-18 12:47:54,2019-07-18 12:47:54,0.022s,PASSED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Verify_Response_with_Empty_Values,,,2019-07-18 12:47:54,2019-07-18 12:47:55,1.223s,FAILED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Verify_Response_with_Empty_Values""))",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.176s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.002s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.type"", hdb_type)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.025s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.owner"", hdb_owner)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.databaseId"", hdb_databaseId)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.coGroup"", hdb_coGroup)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.databaseType"", hdb_databaseType)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.description"", hdb_description)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.readOnlyDbid"", hdb_readOnlyDbid)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.relationalActy"", hdb_relationalActy)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.022s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.dataPropagation"", hdb_dataPropagation)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.type"", vsm_type)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.version"", vsm_version)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.035s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.ddname"", vsm_ddname)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.datasetFormat"", vsm_datasetFormat)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.041s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.maxRecSize"", vsm_maxRecSize)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.password"", vsm_password)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.type"", ims_type)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.022s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.dlitype"", ims_dlitype)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.033s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.posParameter"", ims_posParameter)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.026s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.maxKeylen"", ims_maxKeylen)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.030s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.dbdName"", ims_dbdName)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.type"", mod_type)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.modelDbId"", mod_modelDbId)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.029s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.modelCoGrp"", mod_modelCoGrp)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.024s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.modelReason"", mod_modelReason)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.030s,FAILED
+"verifyElementPropertyValue(response, ""[0].dgList"", dgList)",,,2019-07-18 12:47:55,2019-07-18 12:47:55,0.041s,FAILED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Verify_Response__with_Invalid_Values,,,2019-07-18 12:47:56,2019-07-18 12:47:57,1.003s,FAILED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Verify_Response__with_Invalid_Values""))",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.171s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.002s,PASSED
+"verifyElementPropertyValue(response, ""[0].hdb.type"", hdb_type)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.017s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.owner"", hdb_owner)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.databaseId"", hdb_databaseId)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.coGroup"", hdb_coGroup)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.016s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.databaseType"", hdb_databaseType)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.022s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.description"", hdb_description)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.016s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.readOnlyDbid"", hdb_readOnlyDbid)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.018s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.relationalActy"", hdb_relationalActy)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.022s,FAILED
+"verifyElementPropertyValue(response, ""[0].hdb.dataPropagation"", hdb_dataPropagation)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.type"", vsm_type)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.version"", vsm_version)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.023s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.ddname"", vsm_ddname)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.018s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.datasetFormat"", vsm_datasetFormat)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.018s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.maxRecSize"", vsm_maxRecSize)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.016s,FAILED
+"verifyElementPropertyValue(response, ""[0].vsm.password"", vsm_password)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.016s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.type"", ims_type)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.014s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.dlitype"", ims_dlitype)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.020s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.posParameter"", ims_posParameter)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.020s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.maxKeylen"", ims_maxKeylen)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.024s,FAILED
+"verifyElementPropertyValue(response, ""[0].ims.dbdName"", ims_dbdName)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.type"", mod_type)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.modelDbId"", mod_modelDbId)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.modelCoGrp"", mod_modelCoGrp)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.019s,FAILED
+"verifyElementPropertyValue(response, ""[0].mod.modelReason"", mod_modelReason)",,,2019-07-18 12:47:56,2019-07-18 12:47:56,0.017s,FAILED
+"verifyElementPropertyValue(response, ""[0].dgList"", dgList)",,,2019-07-18 12:47:56,2019-07-18 12:47:57,0.016s,FAILED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Verify_Response_with_Invalid_parameters,,,2019-07-18 12:47:57,2019-07-18 12:47:57,0.488s,PASSED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-07-18 12:47:57,2019-07-18 12:47:57,0.184s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-18 12:47:57,2019-07-18 12:47:57,0.001s,PASSED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Post_Request,,,2019-07-18 12:47:57,2019-07-18 12:47:57,0.406s,PASSED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Post_Request""))",,,2019-07-18 12:47:57,2019-07-18 12:47:57,0.185s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-07-18 12:47:57,2019-07-18 12:47:57,0.002s,PASSED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Put_Request,,,2019-07-18 12:47:57,2019-07-18 12:47:58,0.465s,PASSED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Put_Request""))",,,2019-07-18 12:47:58,2019-07-18 12:47:58,0.159s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 12:47:58,2019-07-18 12:47:58,0.002s,PASSED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Delete_Request_with_Valid_Parameters,,,2019-07-18 12:47:58,2019-07-18 12:47:58,0.409s,PASSED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-07-18 12:47:58,2019-07-18 12:47:58,0.169s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 12:47:58,2019-07-18 12:47:58,0.001s,PASSED
+,,,,,,
+Test Cases/hdb_Controller/hdb_Controller_Delete_Request_with_Invalid_Parameters,,,2019-07-18 12:47:58,2019-07-18 12:47:59,0.475s,PASSED
+"response = sendRequest(findTestObject(""hdb_Controller/hdb_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-07-18 12:47:59,2019-07-18 12:47:59,0.224s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-18 12:47:59,2019-07-18 12:47:59,0.002s,PASSED

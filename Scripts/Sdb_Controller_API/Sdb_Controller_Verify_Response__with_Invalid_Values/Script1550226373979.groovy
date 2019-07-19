@@ -29,4 +29,4 @@ WS.verifyElementPropertyValue(response, '[0].logicalRecLength', logicalRecLength
 WS.verifyElementPropertyValue(response, '[0].ddName', ddName)
 WS.verifyElementPropertyValue(response, '[0].recFm', recFm)
 WS.verifyElementPropertyValue(response, '[0].blockSize', blockSize)
-WS.verifyElementPropertyValue(response, '[0].status', status)
+WS.verifyElementPropertyValue(response, '[0].logDbType', logDbType)

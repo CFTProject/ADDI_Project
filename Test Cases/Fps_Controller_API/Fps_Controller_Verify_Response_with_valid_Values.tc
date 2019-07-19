@@ -66,7 +66,7 @@
       <description></description>
       <id>57a936ca-878b-4ab1-b942-b56b25f80609</id>
       <masked>false</masked>
-      <name>xyz</name>
+      <name>dgAction</name>
    </variable>
    <variable>
       <defaultValue>findTestData('ADDI_TestData/Fps_Controller_TestData')</defaultValue>
@@ -150,7 +150,7 @@
       <description></description>
       <id>2029910f-0916-4599-8d95-baf722a9a940</id>
       <masked>false</masked>
-      <name>pqr</name>
+      <name>highUseIndicator</name>
    </variable>
    <variable>
       <defaultValue>findTestData('ADDI_TestData/Fps_Controller_TestData')</defaultValue>

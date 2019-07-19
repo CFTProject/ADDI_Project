@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;accessMethod\&quot;: \&quot;string\&quot;,\n  \&quot;blockSize\&quot;: \&quot;string\&quot;,\n  \&quot;ddName\&quot;: \&quot;string\&quot;,\n  \&quot;description\&quot;: \&quot;string\&quot;,\n  \&quot;deviceClass\&quot;: \&quot;string\&quot;,\n  \&quot;filetyp\&quot;: \&quot;string\&quot;,\n  \&quot;logicalRecLength\&quot;: \&quot;string\&quot;,\n  \&quot;own\&quot;: \&quot;POOLA\&quot;,\n  \&quot;recFm\&quot;: \&quot;string\&quot;,\n  \&quot;recFmt\&quot;: \&quot;string\&quot;,\n  \&quot;sdbId\&quot;: \&quot;KHAJA\&quot;,\n  \&quot;status\&quot;: \&quot;string\&quot;,\n  \&quot;typ\&quot;: \&quot;HUSSAIN\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;accessMethod\&quot;: \&quot;string\&quot;,\n  \&quot;blockSize\&quot;: \&quot;string\&quot;,\n  \&quot;ddName\&quot;: \&quot;string\&quot;,\n  \&quot;description\&quot;: \&quot;string\&quot;,\n  \&quot;deviceClass\&quot;: \&quot;string\&quot;,\n  \&quot;filetyp\&quot;: \&quot;string\&quot;,\n  \&quot;logDbType\&quot;: \&quot;string\&quot;,\n  \&quot;logicalRecLength\&quot;: \&quot;string\&quot;,\n  \&quot;own\&quot;: \&quot;POOLA\&quot;,\n  \&quot;recFm\&quot;: \&quot;string\&quot;,\n  \&quot;recFmt\&quot;: \&quot;string\&quot;,\n  \&quot;sdbId\&quot;: \&quot;KHAJA\&quot;,\n  \&quot;typ\&quot;: \&quot;HUSSAIN\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

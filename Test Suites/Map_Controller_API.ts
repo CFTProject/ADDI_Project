@@ -81,31 +81,31 @@
       <variableLink>
          <testDataLinkId>43c139b0-8673-4c70-ac9d-daed38a6d29c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>a</value>
+         <value>extendedAttribute</value>
          <variableId>bbed3dc8-188e-44a4-9fb3-746797bd9a6b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>43c139b0-8673-4c70-ac9d-daed38a6d29c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>b</value>
+         <value>dynamicTxnCode</value>
          <variableId>11d6b994-05e9-4e0a-8048-f95b135d2df6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>43c139b0-8673-4c70-ac9d-daed38a6d29c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>x</value>
+         <value>defExtendedAttribute</value>
          <variableId>8c092b09-0f6c-4760-88f5-8e8fea871186</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>43c139b0-8673-4c70-ac9d-daed38a6d29c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>y</value>
+         <value>txnAttribute</value>
          <variableId>9bd02856-8f37-43db-989a-06f4a61f11a6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>43c139b0-8673-4c70-ac9d-daed38a6d29c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>z</value>
+         <value>nonPemMapIndicator</value>
          <variableId>474ab49a-3383-4203-b2de-9005da2cc80f</variableId>
       </variableLink>
       <variableLink>
@@ -204,31 +204,31 @@
       <variableLink>
          <testDataLinkId>d2a56f0f-a056-43e3-b933-2539ebd71f23</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>a</value>
+         <value>extendedAttribute</value>
          <variableId>36487aa6-9379-4df5-b47a-d91b6b46f5b7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d2a56f0f-a056-43e3-b933-2539ebd71f23</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>b</value>
+         <value>dynamicTxnCode</value>
          <variableId>11c05eac-7ded-478c-84ec-3466efc0b6d7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d2a56f0f-a056-43e3-b933-2539ebd71f23</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>x</value>
+         <value>defExtendedAttribute</value>
          <variableId>96a55b07-9a90-4a19-be78-648e0a6b0955</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d2a56f0f-a056-43e3-b933-2539ebd71f23</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>y</value>
+         <value>txnAttribute</value>
          <variableId>40a7c027-09bb-4194-853a-fff9b78a9527</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d2a56f0f-a056-43e3-b933-2539ebd71f23</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>z</value>
+         <value>nonPemMapIndicator</value>
          <variableId>e896892e-c1d2-4ba8-9aea-1ef41574ebe6</variableId>
       </variableLink>
       <variableLink>
@@ -250,9 +250,9 @@
          <variableId>a06531e1-e0e7-4cb2-a87f-a2275a391489</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d2a56f0f-a056-43e3-b933-2539ebd71f23</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>typ</value>
          <variableId>fac4244b-fe35-4108-a59a-522d054a6707</variableId>
       </variableLink>
    </testCaseLink>
@@ -327,31 +327,31 @@
       <variableLink>
          <testDataLinkId>29a7132a-8ec4-4603-9c26-df8faa04a701</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>a</value>
+         <value>extendedAttribute</value>
          <variableId>0e7cb4b3-7b10-4355-ada2-df614fc9032f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>29a7132a-8ec4-4603-9c26-df8faa04a701</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>b</value>
+         <value>dynamicTxnCode</value>
          <variableId>117586aa-2b03-40b1-968d-c0eb90ffa06a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>29a7132a-8ec4-4603-9c26-df8faa04a701</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>x</value>
+         <value>defExtendedAttribute</value>
          <variableId>d5758248-6fae-47f5-92ef-036babf00311</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>29a7132a-8ec4-4603-9c26-df8faa04a701</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>y</value>
+         <value>txnAttribute</value>
          <variableId>363a9685-d47a-43e4-8761-c4a3c9ea7506</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>29a7132a-8ec4-4603-9c26-df8faa04a701</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>z</value>
+         <value>nonPemMapIndicator</value>
          <variableId>68db91e9-31ce-4ab9-89aa-94bee0b3be0b</variableId>
       </variableLink>
       <variableLink>
@@ -373,9 +373,9 @@
          <variableId>877c0418-1e0c-47bf-982e-004a33620292</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>29a7132a-8ec4-4603-9c26-df8faa04a701</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>typ</value>
          <variableId>42848083-5eb7-432f-ad4d-d960da5e7bfe</variableId>
       </variableLink>
    </testCaseLink>

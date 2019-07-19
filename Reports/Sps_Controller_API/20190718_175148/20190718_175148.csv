@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sps_Controller_API,,,2019-07-18 17:54:35,2019-07-18 17:54:48,13.638s,FAILED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Verify_Response_with_valid_Values,,,2019-07-18 17:54:36,2019-07-18 17:54:42,6.558s,PASSED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Verify_Response_with_valid_Values""))",,,2019-07-18 17:54:37,2019-07-18 17:54:41,4.089s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.028s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.type"", rpt_type)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.158s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.owner"", rpt_owner)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.070s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.dsId1"", rpt_dsId1)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.050s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.comp"", rpt_comp)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.055s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.pass"", rpt_pass)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.066s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.dsId2"", rpt_dsId2)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.067s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.reportId"", rpt_reportId)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.048s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.criticalRpt"", rpt_criticalRpt)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.065s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.description"", rpt_description)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.037s,PASSED
+"verifyElementPropertyValue(response, ""[0].bor.type"", bor_type)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.044s,PASSED
+"verifyElementPropertyValue(response, ""[0].bor.noOfActForBor"", bor_noOfActForBor)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.048s,PASSED
+"verifyElementPropertyValue(response, ""[0].bor.listOfActForBor"", bor_listOfActForBor)",,,2019-07-18 17:54:41,2019-07-18 17:54:41,0.038s,PASSED
+"verifyElementPropertyValue(response, ""[0].pro.type"", pro_type)",,,2019-07-18 17:54:41,2019-07-18 17:54:42,0.085s,PASSED
+"verifyElementPropertyValue(response, ""[0].pro.noOfActForPro"", pro_noOfActForPro)",,,2019-07-18 17:54:42,2019-07-18 17:54:42,0.057s,PASSED
+"verifyElementPropertyValue(response, ""[0].pro.listOfActForPro"", pro_listOfActForPro)",,,2019-07-18 17:54:42,2019-07-18 17:54:42,0.072s,PASSED
+"verifyElementPropertyValue(response, ""[0].eor.type"", eor_type)",,,2019-07-18 17:54:42,2019-07-18 17:54:42,0.062s,PASSED
+"verifyElementPropertyValue(response, ""[0].eor.noOfActForEor"", eor_noOfActForEor)",,,2019-07-18 17:54:42,2019-07-18 17:54:42,0.074s,PASSED
+"verifyElementPropertyValue(response, ""[0].eor.listOfActForEor"", eor_listOfActForEor)",,,2019-07-18 17:54:42,2019-07-18 17:54:42,0.272s,PASSED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Verify_Response_with_Empty_Values,,,2019-07-18 17:54:42,2019-07-18 17:54:44,1.583s,FAILED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Verify_Response_with_Empty_Values""))",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.337s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.004s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.type"", rpt_type)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.054s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.owner"", rpt_owner)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.dsId1"", rpt_dsId1)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.comp"", rpt_comp)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.pass"", rpt_pass)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.052s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.dsId2"", rpt_dsId2)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.033s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.reportId"", rpt_reportId)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.029s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.criticalRpt"", rpt_criticalRpt)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.description"", rpt_description)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.050s,FAILED
+"verifyElementPropertyValue(response, ""[0].bor.type"", bor_type)",,,2019-07-18 17:54:43,2019-07-18 17:54:43,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].bor.noOfActForBor"", bor_noOfActForBor)",,,2019-07-18 17:54:43,2019-07-18 17:54:44,0.016s,FAILED
+"verifyElementPropertyValue(response, ""[0].bor.listOfActForBor"", bor_listOfActForBor)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].pro.type"", pro_type)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].pro.noOfActForPro"", pro_noOfActForPro)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.023s,FAILED
+"verifyElementPropertyValue(response, ""[0].pro.listOfActForPro"", pro_listOfActForPro)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].eor.type"", eor_type)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].eor.noOfActForEor"", eor_noOfActForEor)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.081s,FAILED
+"verifyElementPropertyValue(response, ""[0].eor.listOfActForEor"", eor_listOfActForEor)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.037s,FAILED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Verify_Response__with_Invalid_Values,,,2019-07-18 17:54:44,2019-07-18 17:54:45,1.229s,FAILED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Verify_Response__with_Invalid_Values""))",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.231s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.000s,PASSED
+"verifyElementPropertyValue(response, ""[0].rpt.type"", rpt_type)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.031s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.owner"", rpt_owner)",,,2019-07-18 17:54:44,2019-07-18 17:54:44,0.049s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.dsId1"", rpt_dsId1)",,,2019-07-18 17:54:44,2019-07-18 17:54:45,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.comp"", rpt_comp)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.023s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.pass"", rpt_pass)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.040s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.dsId2"", rpt_dsId2)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.055s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.reportId"", rpt_reportId)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.039s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.criticalRpt"", rpt_criticalRpt)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.031s,FAILED
+"verifyElementPropertyValue(response, ""[0].rpt.description"", rpt_description)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.034s,FAILED
+"verifyElementPropertyValue(response, ""[0].bor.type"", bor_type)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].bor.noOfActForBor"", bor_noOfActForBor)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.041s,FAILED
+"verifyElementPropertyValue(response, ""[0].bor.listOfActForBor"", bor_listOfActForBor)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].pro.type"", pro_type)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].pro.noOfActForPro"", pro_noOfActForPro)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.021s,FAILED
+"verifyElementPropertyValue(response, ""[0].pro.listOfActForPro"", pro_listOfActForPro)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.020s,FAILED
+"verifyElementPropertyValue(response, ""[0].eor.type"", eor_type)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.041s,FAILED
+"verifyElementPropertyValue(response, ""[0].eor.noOfActForEor"", eor_noOfActForEor)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].eor.listOfActForEor"", eor_listOfActForEor)",,,2019-07-18 17:54:45,2019-07-18 17:54:45,0.027s,FAILED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Verify_Response_with_Invalid_parameters,,,2019-07-18 17:54:45,2019-07-18 17:54:46,0.595s,PASSED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-07-18 17:54:45,2019-07-18 17:54:46,0.190s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-18 17:54:46,2019-07-18 17:54:46,0.000s,PASSED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Post_Request,,,2019-07-18 17:54:46,2019-07-18 17:54:46,0.577s,PASSED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Post_Request""))",,,2019-07-18 17:54:46,2019-07-18 17:54:46,0.266s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-07-18 17:54:46,2019-07-18 17:54:46,0.002s,PASSED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Put_Request,,,2019-07-18 17:54:46,2019-07-18 17:54:47,0.805s,PASSED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Put_Request""))",,,2019-07-18 17:54:47,2019-07-18 17:54:47,0.333s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 17:54:47,2019-07-18 17:54:47,0.002s,PASSED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Delete_Request_with_Valid_Parameters,,,2019-07-18 17:54:47,2019-07-18 17:54:48,0.639s,PASSED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-07-18 17:54:47,2019-07-18 17:54:48,0.215s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-18 17:54:48,2019-07-18 17:54:48,0.003s,PASSED
+,,,,,,
+Test Cases/Sps_Controller_API/Sps_Controller_Delete_Request_with_Invalid_Parameters,,,2019-07-18 17:54:48,2019-07-18 17:54:48,0.724s,PASSED
+"response = sendRequest(findTestObject(""Sps_Controller_API/Sps_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-07-18 17:54:48,2019-07-18 17:54:48,0.270s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-18 17:54:48,2019-07-18 17:54:48,0.001s,PASSED

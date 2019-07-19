@@ -94,6 +94,6 @@
       <description></description>
       <id>dfbe0015-ffe5-473b-9bb8-5c6b5669847c</id>
       <masked>false</masked>
-      <name>status</name>
+      <name>logDbType</name>
    </variable>
 </TestCaseEntity>

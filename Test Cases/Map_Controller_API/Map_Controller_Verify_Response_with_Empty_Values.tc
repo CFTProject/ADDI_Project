@@ -80,35 +80,35 @@
       <description></description>
       <id>36487aa6-9379-4df5-b47a-d91b6b46f5b7</id>
       <masked>false</masked>
-      <name>a</name>
+      <name>extendedAttribute</name>
    </variable>
    <variable>
       <defaultValue>findTestData('ADDI_TestData/Map_Controller_TestData')</defaultValue>
       <description></description>
       <id>11c05eac-7ded-478c-84ec-3466efc0b6d7</id>
       <masked>false</masked>
-      <name>b</name>
+      <name>dynamicTxnCode</name>
    </variable>
    <variable>
       <defaultValue>findTestData('ADDI_TestData/Map_Controller_TestData')</defaultValue>
       <description></description>
       <id>96a55b07-9a90-4a19-be78-648e0a6b0955</id>
       <masked>false</masked>
-      <name>x</name>
+      <name>defExtendedAttribute</name>
    </variable>
    <variable>
       <defaultValue>findTestData('ADDI_TestData/Map_Controller_TestData')</defaultValue>
       <description></description>
       <id>40a7c027-09bb-4194-853a-fff9b78a9527</id>
       <masked>false</masked>
-      <name>y</name>
+      <name>txnAttribute</name>
    </variable>
    <variable>
       <defaultValue>findTestData('ADDI_TestData/Map_Controller_TestData')</defaultValue>
       <description></description>
       <id>e896892e-c1d2-4ba8-9aea-1ef41574ebe6</id>
       <masked>false</masked>
-      <name>z</name>
+      <name>nonPemMapIndicator</name>
    </variable>
    <variable>
       <defaultValue>findTestData('ADDI_TestData/Map_Controller_TestData')</defaultValue>

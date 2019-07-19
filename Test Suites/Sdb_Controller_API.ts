@@ -99,7 +99,7 @@
       <variableLink>
          <testDataLinkId>cf2b863a-b931-4f26-aa70-80814ad20c6e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>status</value>
+         <value>logDbType</value>
          <variableId>7359c77a-6247-4c1c-964f-d208f84568e2</variableId>
       </variableLink>
    </testCaseLink>
@@ -192,7 +192,7 @@
       <variableLink>
          <testDataLinkId>7fa4dedd-fe23-42f5-a06b-6b9b721cfbce</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>status</value>
+         <value>logDbType</value>
          <variableId>dfbe0015-ffe5-473b-9bb8-5c6b5669847c</variableId>
       </variableLink>
    </testCaseLink>
@@ -285,7 +285,7 @@
       <variableLink>
          <testDataLinkId>21813912-b3a6-4785-be70-77e8d7393d2d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>status</value>
+         <value>logDbType</value>
          <variableId>588c91d9-40d0-4769-a646-331e566523dd</variableId>
       </variableLink>
    </testCaseLink>

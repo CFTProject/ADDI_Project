@@ -35,15 +35,15 @@ WS.verifyElementPropertyValue(response, '[0].type', type)
 
 WS.verifyElementPropertyValue(response, '[0].txn', txn)
 
-WS.verifyElementPropertyValue(response, '[0].a', a)
+WS.verifyElementPropertyValue(response, '[0].extendedAttribute', extendedAttribute)
 
-WS.verifyElementPropertyValue(response, '[0].b', b)
+WS.verifyElementPropertyValue(response, '[0].dynamicTxnCode', dynamicTxnCode)
 
-WS.verifyElementPropertyValue(response, '[0].x', x)
+WS.verifyElementPropertyValue(response, '[0].defExtendedAttribute', defExtendedAttribute)
 
-WS.verifyElementPropertyValue(response, '[0].y', y)
+WS.verifyElementPropertyValue(response, '[0].txnAttribute', txnAttribute)
 
-WS.verifyElementPropertyValue(response, '[0].z', z)
+WS.verifyElementPropertyValue(response, '[0].nonPemMapIndicator', nonPemMapIndicator)
 
 WS.verifyElementPropertyValue(response, '[0].mapType', mapType)
 

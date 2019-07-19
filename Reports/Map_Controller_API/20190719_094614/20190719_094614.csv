@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Map_Controller_API,,,2019-07-19 09:48:33,2019-07-19 09:48:48,15.384s,FAILED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Verify_Response_with_valid_Values,,,2019-07-19 09:48:34,2019-07-19 09:48:41,7.226s,PASSED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Verify_Response_with_valid_Values""))",,,2019-07-19 09:48:35,2019-07-19 09:48:40,5.235s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-19 09:48:40,2019-07-19 09:48:40,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-07-19 09:48:40,2019-07-19 09:48:40,0.128s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-07-19 09:48:40,2019-07-19 09:48:40,0.034s,PASSED
+"verifyElementPropertyValue(response, ""[0].language"", language)",,,2019-07-19 09:48:40,2019-07-19 09:48:40,0.061s,PASSED
+"verifyElementPropertyValue(response, ""[0].mapName"", mapName)",,,2019-07-19 09:48:40,2019-07-19 09:48:40,0.076s,PASSED
+"verifyElementPropertyValue(response, ""[0].device"", device)",,,2019-07-19 09:48:40,2019-07-19 09:48:40,0.066s,PASSED
+"verifyElementPropertyValue(response, ""[0].compGroup"", compGroup)",,,2019-07-19 09:48:40,2019-07-19 09:48:41,0.082s,PASSED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.063s,PASSED
+"verifyElementPropertyValue(response, ""[0].linkname"", linkname)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.058s,PASSED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.053s,PASSED
+"verifyElementPropertyValue(response, ""[0].txn"", txn)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.034s,PASSED
+"verifyElementPropertyValue(response, ""[0].extendedAttribute"", extendedAttribute)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.104s,PASSED
+"verifyElementPropertyValue(response, ""[0].dynamicTxnCode"", dynamicTxnCode)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.030s,PASSED
+"verifyElementPropertyValue(response, ""[0].defExtendedAttribute"", defExtendedAttribute)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.032s,PASSED
+"verifyElementPropertyValue(response, ""[0].txnAttribute"", txnAttribute)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.046s,PASSED
+"verifyElementPropertyValue(response, ""[0].nonPemMapIndicator"", nonPemMapIndicator)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.057s,PASSED
+"verifyElementPropertyValue(response, ""[0].mapType"", mapType)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.036s,PASSED
+"verifyElementPropertyValue(response, ""[0].noOfDg"", noOfDg)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.027s,PASSED
+"verifyElementPropertyValue(response, ""[0].dgNumbers"", dgNumbers)",,,2019-07-19 09:48:41,2019-07-19 09:48:41,0.027s,PASSED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Verify_Response_with_Empty_Values,,,2019-07-19 09:48:41,2019-07-19 09:48:42,1.266s,FAILED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Verify_Response_with_Empty_Values""))",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.211s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.003s,PASSED
+"verifyElementPropertyValue(response, ""[0].typ"", typ)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.033s,FAILED
+"verifyElementPropertyValue(response, ""[0].language"", language)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].mapName"", mapName)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.037s,FAILED
+"verifyElementPropertyValue(response, ""[0].device"", device)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.044s,FAILED
+"verifyElementPropertyValue(response, ""[0].compGroup"", compGroup)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.029s,FAILED
+"verifyElementPropertyValue(response, ""[0].linkname"", linkname)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.027s,FAILED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.044s,FAILED
+"verifyElementPropertyValue(response, ""[0].txn"", txn)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.042s,FAILED
+"verifyElementPropertyValue(response, ""[0].extendedAttribute"", extendedAttribute)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].dynamicTxnCode"", dynamicTxnCode)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.033s,FAILED
+"verifyElementPropertyValue(response, ""[0].defExtendedAttribute"", defExtendedAttribute)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.024s,FAILED
+"verifyElementPropertyValue(response, ""[0].txnAttribute"", txnAttribute)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.022s,FAILED
+"verifyElementPropertyValue(response, ""[0].nonPemMapIndicator"", nonPemMapIndicator)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.026s,FAILED
+"verifyElementPropertyValue(response, ""[0].mapType"", mapType)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.025s,FAILED
+"verifyElementPropertyValue(response, ""[0].noOfDg"", noOfDg)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.026s,FAILED
+"verifyElementPropertyValue(response, ""[0].dgNumbers"", dgNumbers)",,,2019-07-19 09:48:42,2019-07-19 09:48:42,0.035s,FAILED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Verify_Response__with_Invalid_Values,,,2019-07-19 09:48:42,2019-07-19 09:48:44,1.320s,FAILED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Verify_Response__with_Invalid_Values""))",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.189s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.002s,PASSED
+"verifyElementPropertyValue(response, ""[0].owner"", owner)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.035s,FAILED
+"verifyElementPropertyValue(response, ""[0].language"", language)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.044s,FAILED
+"verifyElementPropertyValue(response, ""[0].mapName"", mapName)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].device"", device)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.035s,FAILED
+"verifyElementPropertyValue(response, ""[0].compGroup"", compGroup)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].description"", description)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.050s,FAILED
+"verifyElementPropertyValue(response, ""[0].linkname"", linkname)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.042s,FAILED
+"verifyElementPropertyValue(response, ""[0].type"", type)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.043s,FAILED
+"verifyElementPropertyValue(response, ""[0].txn"", txn)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.035s,FAILED
+"verifyElementPropertyValue(response, ""[0].extendedAttribute"", extendedAttribute)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.038s,FAILED
+"verifyElementPropertyValue(response, ""[0].dynamicTxnCode"", dynamicTxnCode)",,,2019-07-19 09:48:43,2019-07-19 09:48:43,0.039s,FAILED
+"verifyElementPropertyValue(response, ""[0].defExtendedAttribute"", defExtendedAttribute)",,,2019-07-19 09:48:43,2019-07-19 09:48:44,0.047s,FAILED
+"verifyElementPropertyValue(response, ""[0].txnAttribute"", txnAttribute)",,,2019-07-19 09:48:44,2019-07-19 09:48:44,0.032s,FAILED
+"verifyElementPropertyValue(response, ""[0].nonPemMapIndicator"", nonPemMapIndicator)",,,2019-07-19 09:48:44,2019-07-19 09:48:44,0.028s,FAILED
+"verifyElementPropertyValue(response, ""[0].mapType"", mapType)",,,2019-07-19 09:48:44,2019-07-19 09:48:44,0.036s,FAILED
+"verifyElementPropertyValue(response, ""[0].noOfDg"", noOfDg)",,,2019-07-19 09:48:44,2019-07-19 09:48:44,0.057s,FAILED
+"verifyElementPropertyValue(response, ""[0].dgNumbers"", dgNumbers)",,,2019-07-19 09:48:44,2019-07-19 09:48:44,0.050s,FAILED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Verify_Response_with_Invalid_parameters,,,2019-07-19 09:48:44,2019-07-19 09:48:45,1.188s,PASSED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Verify_Response_with_Invalid_parameters""))",,,2019-07-19 09:48:44,2019-07-19 09:48:45,0.461s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-19 09:48:45,2019-07-19 09:48:45,0.004s,PASSED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Post_Request,,,2019-07-19 09:48:45,2019-07-19 09:48:46,1.232s,PASSED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Post_Request""))",,,2019-07-19 09:48:46,2019-07-19 09:48:46,0.421s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-07-19 09:48:46,2019-07-19 09:48:46,0.002s,PASSED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Put_Request,,,2019-07-19 09:48:46,2019-07-19 09:48:47,0.812s,PASSED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Put_Request""))",,,2019-07-19 09:48:47,2019-07-19 09:48:47,0.228s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-19 09:48:47,2019-07-19 09:48:47,0.002s,PASSED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Delete_Request_with_Valid_Parameters,,,2019-07-19 09:48:47,2019-07-19 09:48:48,0.659s,PASSED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Delete_Request_with_Valid_Parameters""))",,,2019-07-19 09:48:47,2019-07-19 09:48:48,0.207s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-07-19 09:48:48,2019-07-19 09:48:48,0.001s,PASSED
+,,,,,,
+Test Cases/Map_Controller_API/Map_Controller_Delete_Request_with_Invalid_Parameters,,,2019-07-19 09:48:48,2019-07-19 09:48:48,0.672s,PASSED
+"response = sendRequest(findTestObject(""Map_Controller_API/Map_Controller_Delete_Request_with_Invalid_Parameters""))",,,2019-07-19 09:48:48,2019-07-19 09:48:48,0.255s,PASSED
+"verifyResponseStatusCode(response, 400)",,,2019-07-19 09:48:48,2019-07-19 09:48:48,0.002s,PASSED
